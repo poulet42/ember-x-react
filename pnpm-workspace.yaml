@@ -1,0 +1,3 @@
+packages:
+  - 'ember-x-react'
+  - 'test-app'
