@@ -6,6 +6,9 @@
     "ember-addon"
   ],
   "repository": "",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "author": "",
   "exports": {
