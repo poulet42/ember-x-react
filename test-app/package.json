@@ -29,6 +29,7 @@
     "@babel/core": "^7.26.0",
     "@babel/eslint-parser": "^7.25.9",
     "@babel/plugin-proposal-decorators": "^7.25.9",
+    "@babel/preset-react": "^7.26.3",
     "@ember-data/adapter": "~5.4.0-beta.12",
     "@ember-data/graph": "~5.4.0-beta.12",
     "@ember-data/json-api": "~5.4.0-beta.12",
@@ -42,7 +43,10 @@
     "@ember/optional-features": "^2.2.0",
     "@ember/string": "^4.0.0",
     "@ember/test-helpers": "^4.0.4",
+    "@embroider/compat": "^3.8.0",
+    "@embroider/core": "^3.5.0",
     "@embroider/test-setup": "^3.0.1",
+    "@embroider/webpack": "^4.0.9",
     "@eslint/js": "^9.17.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
@@ -52,10 +56,14 @@
     "@tsconfig/ember": "^3.0.8",
     "@types/eslint__js": "^8.42.3",
     "@types/qunit": "^2.19.12",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.3",
     "@types/rsvp": "^4.0.9",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "@warp-drive/core-types": "~0.0.0-beta.12",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-ember-template-compilation": "^2.3.0",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^9.1.0",
     "ember-auto-import": "^2.10.0",
@@ -106,5 +114,9 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
