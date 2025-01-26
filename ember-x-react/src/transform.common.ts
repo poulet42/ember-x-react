@@ -1,7 +1,7 @@
 import type { Transform } from 'babel-plugin-ember-template-compilation';
 import type { NodeVisitor, ASTv1 } from '@glimmer/syntax';
 
-export const transform: Transform = (env) => {
+const transform: Transform = (env) => {
   const b = env.syntax.builders;
 
   function isXReact(node: ASTv1.Node) {
@@ -258,3 +258,5 @@ export const transform: Transform = (env) => {
     visitor,
   };
 };
+
+export default transform;
