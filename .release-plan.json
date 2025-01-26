@@ -1,8 +1,17 @@
 {
   "solution": {
     "ember-x-react": {
-      "oldVersion": "1.0.0"
+      "impact": "minor",
+      "oldVersion": "1.0.0",
+      "newVersion": "1.1.0",
+      "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        }
+      ],
+      "pkgJSONPath": "./ember-x-react/package.json"
     }
   },
-  "description": "\n\n\n\n"
+  "description": "## Release (2025-01-26)\n\nember-x-react 1.1.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-x-react`\n  * [#3](https://github.com/poulet42/ember-x-react/pull/3) remove unused src/index.ts ([@poulet42](https://github.com/poulet42))\n\n#### :house: Internal\n* [#2](https://github.com/poulet42/ember-x-react/pull/2) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))\n\n#### Committers: 2\n- Corentin ([@poulet42](https://github.com/poulet42))\n- [@github-actions[bot]](https://github.com/apps/github-actions)\n"
 }
