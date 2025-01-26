@@ -2,6 +2,17 @@
 
 ## Release (2025-01-26)
 
+ember-x-react 1.1.1 (patch)
+
+#### :house: Internal
+* `ember-x-react`
+  * [#5](https://github.com/poulet42/ember-x-react/pull/5) set publishConfig.access=public in package ([@poulet42](https://github.com/poulet42))
+
+#### Committers: 1
+- Corentin ([@poulet42](https://github.com/poulet42))
+
+## Release (2025-01-26)
+
 ember-x-react 1.1.0 (minor)
 
 #### :rocket: Enhancement
