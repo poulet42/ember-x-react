@@ -2,6 +2,17 @@
 
 ## Release (2025-01-26)
 
+ember-x-react 1.1.2 (patch)
+
+#### :house: Internal
+* `ember-x-react`
+  * [#7](https://github.com/poulet42/ember-x-react/pull/7) set repository url in package to unblock publish ([@poulet42](https://github.com/poulet42))
+
+#### Committers: 1
+- Corentin ([@poulet42](https://github.com/poulet42))
+
+## Release (2025-01-26)
+
 ember-x-react 1.1.1 (patch)
 
 #### :house: Internal

@@ -2,8 +2,8 @@
   "solution": {
     "ember-x-react": {
       "impact": "patch",
-      "oldVersion": "1.1.0",
-      "newVersion": "1.1.1",
+      "oldVersion": "1.1.1",
+      "newVersion": "1.1.2",
       "constraints": [
         {
           "impact": "patch",
@@ -13,5 +13,5 @@
       "pkgJSONPath": "./ember-x-react/package.json"
     }
   },
-  "description": "## Release (2025-01-26)\n\nember-x-react 1.1.1 (patch)\n\n#### :house: Internal\n* `ember-x-react`\n  * [#5](https://github.com/poulet42/ember-x-react/pull/5) set publishConfig.access=public in package ([@poulet42](https://github.com/poulet42))\n\n#### Committers: 1\n- Corentin ([@poulet42](https://github.com/poulet42))\n"
+  "description": "## Release (2025-01-26)\n\nember-x-react 1.1.2 (patch)\n\n#### :house: Internal\n* `ember-x-react`\n  * [#7](https://github.com/poulet42/ember-x-react/pull/7) set repository url in package to unblock publish ([@poulet42](https://github.com/poulet42))\n\n#### Committers: 1\n- Corentin ([@poulet42](https://github.com/poulet42))\n"
 }
