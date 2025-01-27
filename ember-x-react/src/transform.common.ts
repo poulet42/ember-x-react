@@ -182,18 +182,17 @@ const transform: Transform = (env) => {
           const reactComponent = reactComponentAttr.value.path.original;
 
           const childProps = findAttribute(child, '@props');
+          let childPropsHash: ASTv1.Hash = b.hash();
 
-          if (childProps?.value.type !== 'MustacheStatement') {
-            throw new Error(
-              'The @props attribute must be a mustache statement',
-            );
+          if (childProps && childProps.value.type === 'MustacheStatement') {
+            childPropsHash = childProps.value.hash;
           }
 
           const nestedChildren = collectChildComponents(child.children);
 
           return buildReactHelper(
             b.path(reactComponent),
-            childProps?.value?.hash,
+            childPropsHash,
             nestedChildren,
           );
         }
